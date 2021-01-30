@@ -1,0 +1,4 @@
+Cannot generate into C:\Users\Steven\Documents\CS\procedural_programming
+It is already used for project C:\Users\Steven\Documents\procedural_programming
+
+Please either delete it manually or select another generation directory
