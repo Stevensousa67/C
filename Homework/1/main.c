@@ -10,6 +10,12 @@ int main() {
     {
         case '1': {
             printf("In this space write a loop to print any word of your choosing 20 times");
+            int a;
+
+            for(a = 0; a <= 20; a++){
+                printf("Finally this code has worked!")
+            }
+
         }
             break;
 
