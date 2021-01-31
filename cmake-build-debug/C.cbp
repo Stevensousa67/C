@@ -38,10 +38,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="C">
-				<Option output="/mnt/c/Users/Steven/Documents/CS/C/cmake-build-debug/libC.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/Steven/Documents/CS/C/cmake-build-debug/C" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Steven/Documents/CS/C/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
@@ -57,10 +57,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="C/fast">
-				<Option output="/mnt/c/Users/Steven/Documents/CS/C/cmake-build-debug/libC.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/Steven/Documents/CS/C/cmake-build-debug/C" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Steven/Documents/CS/C/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
@@ -76,10 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/library.c">
-			<Option target="C"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/library.h">
+		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/main.c">
 			<Option target="C"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/CMakeLists.txt">

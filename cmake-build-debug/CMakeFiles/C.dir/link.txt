@@ -1,2 +1,1 @@
-/usr/bin/ar qc libC.a  CMakeFiles/C.dir/library.c.o
-/usr/bin/ranlib libC.a
+/usr/bin/cc -g   CMakeFiles/C.dir/main.c.o  -o C 

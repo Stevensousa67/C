@@ -123,32 +123,32 @@ C/fast:
 	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-library.o: library.c.o
+main.o: main.c.o
 
-.PHONY : library.o
+.PHONY : main.o
 
 # target to build an object file
-library.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/library.c.o
-.PHONY : library.c.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/main.c.o
+.PHONY : main.c.o
 
-library.i: library.c.i
+main.i: main.c.i
 
-.PHONY : library.i
+.PHONY : main.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/library.c.i
-.PHONY : library.c.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/main.c.i
+.PHONY : main.c.i
 
-library.s: library.c.s
+main.s: main.c.s
 
-.PHONY : library.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/library.c.s
-.PHONY : library.c.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

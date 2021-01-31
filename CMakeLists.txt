@@ -3,4 +3,4 @@ project(C C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(C library.c library.h)
+add_executable(C main.c)
