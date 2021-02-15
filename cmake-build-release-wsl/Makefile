@@ -123,6 +123,33 @@ C/fast:
 	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
+Homework/2/Homework2.o: Homework/2/Homework2.c.o
+
+.PHONY : Homework/2/Homework2.o
+
+# target to build an object file
+Homework/2/Homework2.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/2/Homework2.c.o
+.PHONY : Homework/2/Homework2.c.o
+
+Homework/2/Homework2.i: Homework/2/Homework2.c.i
+
+.PHONY : Homework/2/Homework2.i
+
+# target to preprocess a source file
+Homework/2/Homework2.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/2/Homework2.c.i
+.PHONY : Homework/2/Homework2.c.i
+
+Homework/2/Homework2.s: Homework/2/Homework2.c.s
+
+.PHONY : Homework/2/Homework2.s
+
+# target to generate assembly for a file
+Homework/2/Homework2.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/2/Homework2.c.s
+.PHONY : Homework/2/Homework2.c.s
+
 Homework01.o: Homework01.c.o
 
 .PHONY : Homework01.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C"
+	@echo "... Homework/2/Homework2.o"
+	@echo "... Homework/2/Homework2.i"
+	@echo "... Homework/2/Homework2.s"
 	@echo "... Homework01.o"
 	@echo "... Homework01.i"
 	@echo "... Homework01.s"
