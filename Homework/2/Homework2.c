@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/** This homework covers the topics of Loops, Logic, Functions, Libraries, and Unit Tests.
+ * Create a program similar to Example 3 from Day 5. It should include a `main.c' `myMath.c' and `myMath.h'
+ * Choose 4 of the following. All 4 functions should be declared in `myMath.h' and defined in `myMath.c'
+ *
+ */
+
 int main(){
     char caseChoice;
 
