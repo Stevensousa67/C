@@ -26,6 +26,6 @@ int main(){
              */
 
 
-        }
-    }
-}
+        }// end case 1
+    }// end switch
+}// end main
