@@ -123,59 +123,59 @@ C/fast:
 	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-Homework/2/Homework2.o: Homework/2/Homework2.c.o
+Homework/Answer/Homework2_Main.o: Homework/Answer/Homework2_Main.c.o
 
-.PHONY : Homework/2/Homework2.o
-
-# target to build an object file
-Homework/2/Homework2.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/2/Homework2.c.o
-.PHONY : Homework/2/Homework2.c.o
-
-Homework/2/Homework2.i: Homework/2/Homework2.c.i
-
-.PHONY : Homework/2/Homework2.i
-
-# target to preprocess a source file
-Homework/2/Homework2.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/2/Homework2.c.i
-.PHONY : Homework/2/Homework2.c.i
-
-Homework/2/Homework2.s: Homework/2/Homework2.c.s
-
-.PHONY : Homework/2/Homework2.s
-
-# target to generate assembly for a file
-Homework/2/Homework2.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/2/Homework2.c.s
-.PHONY : Homework/2/Homework2.c.s
-
-Homework01.o: Homework01.c.o
-
-.PHONY : Homework01.o
+.PHONY : Homework/Answer/Homework2_Main.o
 
 # target to build an object file
-Homework01.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework01.c.o
-.PHONY : Homework01.c.o
+Homework/Answer/Homework2_Main.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/Answer/Homework2_Main.c.o
+.PHONY : Homework/Answer/Homework2_Main.c.o
 
-Homework01.i: Homework01.c.i
+Homework/Answer/Homework2_Main.i: Homework/Answer/Homework2_Main.c.i
 
-.PHONY : Homework01.i
+.PHONY : Homework/Answer/Homework2_Main.i
 
 # target to preprocess a source file
-Homework01.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework01.c.i
-.PHONY : Homework01.c.i
+Homework/Answer/Homework2_Main.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/Answer/Homework2_Main.c.i
+.PHONY : Homework/Answer/Homework2_Main.c.i
 
-Homework01.s: Homework01.c.s
+Homework/Answer/Homework2_Main.s: Homework/Answer/Homework2_Main.c.s
 
-.PHONY : Homework01.s
+.PHONY : Homework/Answer/Homework2_Main.s
 
 # target to generate assembly for a file
-Homework01.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework01.c.s
-.PHONY : Homework01.c.s
+Homework/Answer/Homework2_Main.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/Answer/Homework2_Main.c.s
+.PHONY : Homework/Answer/Homework2_Main.c.s
+
+Homework/Answer/Homework2_MyMath.o: Homework/Answer/Homework2_MyMath.c.o
+
+.PHONY : Homework/Answer/Homework2_MyMath.o
+
+# target to build an object file
+Homework/Answer/Homework2_MyMath.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/Answer/Homework2_MyMath.c.o
+.PHONY : Homework/Answer/Homework2_MyMath.c.o
+
+Homework/Answer/Homework2_MyMath.i: Homework/Answer/Homework2_MyMath.c.i
+
+.PHONY : Homework/Answer/Homework2_MyMath.i
+
+# target to preprocess a source file
+Homework/Answer/Homework2_MyMath.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/Answer/Homework2_MyMath.c.i
+.PHONY : Homework/Answer/Homework2_MyMath.c.i
+
+Homework/Answer/Homework2_MyMath.s: Homework/Answer/Homework2_MyMath.c.s
+
+.PHONY : Homework/Answer/Homework2_MyMath.s
+
+# target to generate assembly for a file
+Homework/Answer/Homework2_MyMath.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Homework/Answer/Homework2_MyMath.c.s
+.PHONY : Homework/Answer/Homework2_MyMath.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C"
-	@echo "... Homework/2/Homework2.o"
-	@echo "... Homework/2/Homework2.i"
-	@echo "... Homework/2/Homework2.s"
-	@echo "... Homework01.o"
-	@echo "... Homework01.i"
-	@echo "... Homework01.s"
+	@echo "... Homework/Answer/Homework2_Main.o"
+	@echo "... Homework/Answer/Homework2_Main.i"
+	@echo "... Homework/Answer/Homework2_Main.s"
+	@echo "... Homework/Answer/Homework2_MyMath.o"
+	@echo "... Homework/Answer/Homework2_MyMath.i"
+	@echo "... Homework/Answer/Homework2_MyMath.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/C.dir/Homework01.c.o CMakeFiles/C.dir/Homework/2/Homework2.c.o  -o C 
+/usr/bin/cc -g   CMakeFiles/C.dir/Homework/Answer/Homework2_Main.c.o CMakeFiles/C.dir/Homework/Answer/Homework2_MyMath.c.o  -o C 

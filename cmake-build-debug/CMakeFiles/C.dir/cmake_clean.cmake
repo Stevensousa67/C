@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "C"
   "C.pdb"
-  "CMakeFiles/C.dir/Homework/2/Homework2.c.o"
-  "CMakeFiles/C.dir/Homework01.c.o"
+  "CMakeFiles/C.dir/Homework/Answer/Homework2_Main.c.o"
+  "CMakeFiles/C.dir/Homework/Answer/Homework2_MyMath.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

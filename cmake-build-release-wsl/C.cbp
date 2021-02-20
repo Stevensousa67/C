@@ -76,10 +76,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/Homework/2/Homework2.c">
+		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/Homework/Answer/Homework2_Main.c">
 			<Option target="C"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/Homework01.c">
+		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/Homework/Answer/Homework2_MyMath.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/Homework/Answer/Homework2_MyMath.h">
 			<Option target="C"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Steven/Documents/CS/C/CMakeLists.txt">
