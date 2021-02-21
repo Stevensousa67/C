@@ -2,37 +2,53 @@
 #include "Homework2_MyMath.h"
 
 int main() {
-    /* Question 1 (isTriangle)
-     *
-     */
-    int side1, side2, side3 = 0;
 
-    // Get value for side 1
-    printf("Enter a value for side 1: ");
-    scanf("%d", &side1);
+    char CaseChoice;
 
-    // Get value for side 2
-    printf("Enter a value for side 2: ");
-    scanf("%d", &side2);
+    printf("This Homework has Questions 1-4 from Homework02. Select which question to play with.");
+    scanf("%c", &CaseChoice);
 
-    // Get value for side 3
-    printf("Enter a value for side 3: ");
-    scanf("%d", &side3);
+    switch(CaseChoice)
+    {
 
-    // Test if variables got the input
-    //printf("Side 1: %d\n", side1);
-    //printf("Side 2: %d\n", side2);
-    //printf("Side 3: %d\n", side3);
+        case '1':{
 
-    // Call function
-    isTriangle(side1, side2, side3);
+            int side1, side2, side3;
 
-    /* Question 2
-     *
-     */
- //   triangleNumber();
- //   squareNumber();
-//    isSquareNumber();
+            printf("Enter a value for side 1, side 2, and side 3 respectively: ");
+            scanf("%d%d%d", &side1, &side2, &side3);
+
+            isTriangle(side1, side2, side3);
+        }
+
+        case '2':{
+
+            int number;
+
+            printf("Choose a number to do a triangle number: ");
+            scanf("%d", &number);
+
+            triangleNumber(number);
+        }
+
+        case '3':{
+
+            int toSquare;
+
+            printf("Select a number to square it: ");
+            scanf("%d", &toSquare);
+
+            squareNumber(toSquare);
+        }
+
+        case '4':{
+            /* Question 4
+             *
+             */
+
+            // isSquareNumber();
+        }
+    }// end switch
+
     return 0;
-
 }
