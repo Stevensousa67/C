@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/C.dir/Answer/Homework2_Main.c.o CMakeFiles/C.dir/Answer/Homework2_MyMath.c.o  -o C 

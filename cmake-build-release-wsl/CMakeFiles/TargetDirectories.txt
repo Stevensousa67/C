@@ -1,3 +1,0 @@
-/mnt/c/Users/Steven/Documents/CS/C/cmake-build-release-wsl/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Steven/Documents/CS/C/cmake-build-release-wsl/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Steven/Documents/CS/C/cmake-build-release-wsl/CMakeFiles/C.dir
