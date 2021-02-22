@@ -46,7 +46,12 @@ int main() {
              *
              */
 
-            // isSquareNumber();
+            int possibleSquare;
+
+            printf("Select a number to check if it is a perfect square: ");
+            scanf("%d", &possibleSquare);
+
+            isSquareNumber(possibleSquare);
         }
     }// end switch
 

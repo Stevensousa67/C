@@ -48,4 +48,10 @@ int squareNumber(int toSquare){
 
 }
 
-//int isSquareNumber
+int isSquareNumber(int possibleSquare){
+
+    int root;
+
+    if(root)
+
+}
