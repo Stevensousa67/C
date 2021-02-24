@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <stdbool.h>
 #include "Homework2_MyMath.h"
 
 int isTriangle(int side1, int side2, int side3){
@@ -50,7 +51,23 @@ int squareNumber(int toSquare){
 
 int isSquareNumber(int possibleSquare){
 
+    bool isSquare;
+    int factor_count = 0;
 
+    // count how many factors in a given number
+    for(int i = 1; i <= possibleSquare; i++){
+        if(possibleSquare % i == 0)
+            factor_count++;
+        else
+            i++;
+    }
 
-
+    // if number of factors is even, return false. If odd, return true
+    if(factor_count % 2 == 0) {
+        printf("%d", isSquare);
+    }
+    else {
+        isSquare = true;
+        printf("%d", isSquare);
+    }
 }
