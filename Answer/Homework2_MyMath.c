@@ -55,7 +55,7 @@ int isSquareNumber(int possibleSquare){
     int factor_count = 0;
 
     // count how many factors in a given number
-    for(int i = 1; i <= possibleSquare; i++){
+    for(int i = 1; i <= possibleSquare; ++i){
         if(possibleSquare % i == 0)
             factor_count++;
         else
