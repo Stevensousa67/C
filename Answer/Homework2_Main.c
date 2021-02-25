@@ -68,7 +68,7 @@ int main() {
             printf("Select a number to check if it is a perfect square: ");
             scanf("%d", &possibleSquare);
 
-            printf(isSquareNumber(possibleSquare));
+            isSquareNumber(possibleSquare);
 
             printf("\nThe Unit Test is about to execute. See source code for more information.");
 
