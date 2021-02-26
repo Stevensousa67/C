@@ -22,10 +22,8 @@ int main() {
 
             isTriangle(side1, side2, side3);
 
-            printf("\nThe Unit Test is about to execute. See source code for more information.");
-
-
-
+            printf("\nThe Unit Test is about to execute. See source code for more information.\n");
+            myIsTriangleUnitTest();
         }
 
         case '2':{
@@ -39,7 +37,8 @@ int main() {
 
             triangleNumber(number);
 
-            printf("\nThe Unit Test is about to execute. See source code for more information.");
+            printf("\nThe Unit Test is about to execute. See source code for more information.\n");
+            myTriangleNumberUnitTest();
         }
 
         case '3':{
@@ -53,7 +52,8 @@ int main() {
 
             squareNumber(toSquare);
 
-            printf("\nThe Unit Test is about to execute. See source code for more information.");
+            printf("\nThe Unit Test is about to execute. See source code for more information.\n");
+            mySquareNumberUnitTest();
         }
 
         case '4':{
@@ -61,17 +61,17 @@ int main() {
              *
              */
 
-            //printf("You are about to run the user input version of the Exercise 4.\n");
-
             int possibleSquare;
 
+            printf("You are about to run the user input version of the Exercise 4.\n");
             printf("Select a number to check if it is a perfect square: ");
             scanf("%d", &possibleSquare);
 
             isSquareNumber(possibleSquare);
 
-            printf("\nThe Unit Test is about to execute. See source code for more information.");
+            printf("\nThe Unit Test is about to execute. See source code for more information.\n");
 
+            myIsSquareNumberUnitTest();
         }
     }// end switch
 

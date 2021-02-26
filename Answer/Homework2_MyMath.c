@@ -5,31 +5,29 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "Homework2_MyMath.h"
-
+// Question 1 function
 int isTriangle(int side1, int side2, int side3){
 
-    int max, min;
-
-    // Create a conditional statement that will assign the highest value between side 1 and 2 to variable max.
-    // This made more sense to me when doing the subtraction test to see if the given values form a triangle.
-    if(side1 >= side2){
-        max = side1;
-        min = side2;
-    }
-    else{
-        min = side1;
-        max = side2;
-    }
-
-    // Subtraction test to see if given values form a triangle.
-    if(max - min < side3){
-        printf("Those values provide a triangle!");
-    }
-    else{
-        printf("Sorry, but those values do not form a triangle.");
-    }
+    if(side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1)
+        printf("False!\n");
+    else
+        printf("True!\n");
+    return 0;
 }
+// Question 1 Unit Test
+int myIsTriangleUnitTest(){
 
+    // Test 1
+    int a = 5, b = 2, c = 4;
+    isTriangle(a,b,c);
+
+    // Test 2
+    a = 1, b = 2, c = 3;
+    isTriangle(a,b,c);
+
+    return 0;
+}
+// Question 2 function
 int triangleNumber(int number){
 
     int result = 0;
@@ -38,20 +36,47 @@ int triangleNumber(int number){
         result = result + counter;
     }
 
-    printf("Result: %d", result);
+    printf("Result: %d\n", result);
+    return 0;
 }
+// Question 2 Unit Test
+int myTriangleNumberUnitTest(){
 
+    // Test 1
+    int a = 3; // should return 3
+    triangleNumber(a);
+
+    // Test 2
+    a = 11; // should return 66
+    triangleNumber(a);
+
+    return 0;
+}
+// Question 3 function
 int squareNumber(int toSquare){
 
     int squared = toSquare*toSquare;
 
-    printf("The square is: %d", squared);
+    printf("The square is: %d\n", squared);
+
+    return 0;
+}
+// Question 3 Unit Test
+int mySquareNumberUnitTest(){
+
+    // Test 1
+    int a = 13; // should return 169
+    squareNumber(a);
+
+    // Test 2
+    a = -4; // should return 16
+    squareNumber(a);
 
 }
-
+//Question 4 function
 int isSquareNumber(int possibleSquare){
 
-    bool isSquare;
+    bool isSquare = false;
     int factor_count = 0;
 
     // count how many factors in a given number
@@ -62,10 +87,22 @@ int isSquareNumber(int possibleSquare){
 
     // if number of factors is even, return false. If odd, return true
     if(factor_count % 2 == 0) {
-        printf("%d", isSquare);
+        printf("%d\n", isSquare);
     }
     else {
         isSquare = true;
-        printf("%d", isSquare);
+        printf("%d\n", isSquare);
     }
+    return 0;
+}
+// Question 4 Unit Test
+int myIsSquareNumberUnitTest(){
+
+    // Test 1
+    int a = 16; // should return 1
+    isSquareNumber(a);
+
+    // Test 2
+    a = 8; // should return 0
+    isSquareNumber(a);
 }
