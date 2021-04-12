@@ -8,6 +8,7 @@
  * Steven Sousa / Procedural Programming / 4Cs / 04-12-21
  */
 
+// Import necessary dependencies
 #include <stdio.h>
 #include <time.h>
 
