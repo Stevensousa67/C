@@ -123,59 +123,32 @@ C/fast:
 	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-Answer/Homework2_Main.o: Answer/Homework2_Main.c.o
+Answer/Project_1.o: Answer/Project_1.c.o
 
-.PHONY : Answer/Homework2_Main.o
-
-# target to build an object file
-Answer/Homework2_Main.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework2_Main.c.o
-.PHONY : Answer/Homework2_Main.c.o
-
-Answer/Homework2_Main.i: Answer/Homework2_Main.c.i
-
-.PHONY : Answer/Homework2_Main.i
-
-# target to preprocess a source file
-Answer/Homework2_Main.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework2_Main.c.i
-.PHONY : Answer/Homework2_Main.c.i
-
-Answer/Homework2_Main.s: Answer/Homework2_Main.c.s
-
-.PHONY : Answer/Homework2_Main.s
-
-# target to generate assembly for a file
-Answer/Homework2_Main.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework2_Main.c.s
-.PHONY : Answer/Homework2_Main.c.s
-
-Answer/Homework2_MyMath.o: Answer/Homework2_MyMath.c.o
-
-.PHONY : Answer/Homework2_MyMath.o
+.PHONY : Answer/Project_1.o
 
 # target to build an object file
-Answer/Homework2_MyMath.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework2_MyMath.c.o
-.PHONY : Answer/Homework2_MyMath.c.o
+Answer/Project_1.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Project_1.c.o
+.PHONY : Answer/Project_1.c.o
 
-Answer/Homework2_MyMath.i: Answer/Homework2_MyMath.c.i
+Answer/Project_1.i: Answer/Project_1.c.i
 
-.PHONY : Answer/Homework2_MyMath.i
+.PHONY : Answer/Project_1.i
 
 # target to preprocess a source file
-Answer/Homework2_MyMath.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework2_MyMath.c.i
-.PHONY : Answer/Homework2_MyMath.c.i
+Answer/Project_1.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Project_1.c.i
+.PHONY : Answer/Project_1.c.i
 
-Answer/Homework2_MyMath.s: Answer/Homework2_MyMath.c.s
+Answer/Project_1.s: Answer/Project_1.c.s
 
-.PHONY : Answer/Homework2_MyMath.s
+.PHONY : Answer/Project_1.s
 
 # target to generate assembly for a file
-Answer/Homework2_MyMath.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework2_MyMath.c.s
-.PHONY : Answer/Homework2_MyMath.c.s
+Answer/Project_1.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Project_1.c.s
+.PHONY : Answer/Project_1.c.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C"
-	@echo "... Answer/Homework2_Main.o"
-	@echo "... Answer/Homework2_Main.i"
-	@echo "... Answer/Homework2_Main.s"
-	@echo "... Answer/Homework2_MyMath.o"
-	@echo "... Answer/Homework2_MyMath.i"
-	@echo "... Answer/Homework2_MyMath.s"
+	@echo "... Answer/Project_1.o"
+	@echo "... Answer/Project_1.i"
+	@echo "... Answer/Project_1.s"
 .PHONY : help
 
 
