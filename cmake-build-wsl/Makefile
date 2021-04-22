@@ -123,32 +123,32 @@ C/fast:
 	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-Answer/Project_1.o: Answer/Project_1.c.o
+Answer/Homework4_Question2.o: Answer/Homework4_Question2.c.o
 
-.PHONY : Answer/Project_1.o
+.PHONY : Answer/Homework4_Question2.o
 
 # target to build an object file
-Answer/Project_1.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Project_1.c.o
-.PHONY : Answer/Project_1.c.o
+Answer/Homework4_Question2.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework4_Question2.c.o
+.PHONY : Answer/Homework4_Question2.c.o
 
-Answer/Project_1.i: Answer/Project_1.c.i
+Answer/Homework4_Question2.i: Answer/Homework4_Question2.c.i
 
-.PHONY : Answer/Project_1.i
+.PHONY : Answer/Homework4_Question2.i
 
 # target to preprocess a source file
-Answer/Project_1.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Project_1.c.i
-.PHONY : Answer/Project_1.c.i
+Answer/Homework4_Question2.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework4_Question2.c.i
+.PHONY : Answer/Homework4_Question2.c.i
 
-Answer/Project_1.s: Answer/Project_1.c.s
+Answer/Homework4_Question2.s: Answer/Homework4_Question2.c.s
 
-.PHONY : Answer/Project_1.s
+.PHONY : Answer/Homework4_Question2.s
 
 # target to generate assembly for a file
-Answer/Project_1.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Project_1.c.s
-.PHONY : Answer/Project_1.c.s
+Answer/Homework4_Question2.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework4_Question2.c.s
+.PHONY : Answer/Homework4_Question2.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C"
-	@echo "... Answer/Project_1.o"
-	@echo "... Answer/Project_1.i"
-	@echo "... Answer/Project_1.s"
+	@echo "... Answer/Homework4_Question2.o"
+	@echo "... Answer/Homework4_Question2.i"
+	@echo "... Answer/Homework4_Question2.s"
 .PHONY : help
 
 
