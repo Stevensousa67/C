@@ -123,32 +123,32 @@ C/fast:
 	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
-Answer/Homework4_Question2.o: Answer/Homework4_Question2.c.o
+Answer/Homework_6/Homework6_6.o: Answer/Homework_6/Homework6_6.c.o
 
-.PHONY : Answer/Homework4_Question2.o
+.PHONY : Answer/Homework_6/Homework6_6.o
 
 # target to build an object file
-Answer/Homework4_Question2.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework4_Question2.c.o
-.PHONY : Answer/Homework4_Question2.c.o
+Answer/Homework_6/Homework6_6.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o
+.PHONY : Answer/Homework_6/Homework6_6.c.o
 
-Answer/Homework4_Question2.i: Answer/Homework4_Question2.c.i
+Answer/Homework_6/Homework6_6.i: Answer/Homework_6/Homework6_6.c.i
 
-.PHONY : Answer/Homework4_Question2.i
+.PHONY : Answer/Homework_6/Homework6_6.i
 
 # target to preprocess a source file
-Answer/Homework4_Question2.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework4_Question2.c.i
-.PHONY : Answer/Homework4_Question2.c.i
+Answer/Homework_6/Homework6_6.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.i
+.PHONY : Answer/Homework_6/Homework6_6.c.i
 
-Answer/Homework4_Question2.s: Answer/Homework4_Question2.c.s
+Answer/Homework_6/Homework6_6.s: Answer/Homework_6/Homework6_6.c.s
 
-.PHONY : Answer/Homework4_Question2.s
+.PHONY : Answer/Homework_6/Homework6_6.s
 
 # target to generate assembly for a file
-Answer/Homework4_Question2.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework4_Question2.c.s
-.PHONY : Answer/Homework4_Question2.c.s
+Answer/Homework_6/Homework6_6.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.s
+.PHONY : Answer/Homework_6/Homework6_6.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C"
-	@echo "... Answer/Homework4_Question2.o"
-	@echo "... Answer/Homework4_Question2.i"
-	@echo "... Answer/Homework4_Question2.s"
+	@echo "... Answer/Homework_6/Homework6_6.o"
+	@echo "... Answer/Homework_6/Homework6_6.i"
+	@echo "... Answer/Homework_6/Homework6_6.s"
 .PHONY : help
 
 

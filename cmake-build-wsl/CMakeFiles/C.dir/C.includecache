@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Steven/Documents/CS/C/Answer/Homework4_Question2.c
-stdio.h
+/mnt/c/Users/Steven/Documents/CS/C/Answer/Homework_6/Homework6_6.c
+math.h
 -
-stdlib.h
+stdio.h
 -
 

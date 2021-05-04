@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/C.dir/Answer/Homework4_Question2.c.o  -o C 
+/usr/bin/cc -g  -rdynamic CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o  -o C 

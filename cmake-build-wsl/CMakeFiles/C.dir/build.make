@@ -57,27 +57,27 @@ include CMakeFiles/C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C.dir/flags.make
 
-CMakeFiles/C.dir/Answer/Homework4_Question2.c.o: CMakeFiles/C.dir/flags.make
-CMakeFiles/C.dir/Answer/Homework4_Question2.c.o: ../Answer/Homework4_Question2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steven/Documents/CS/C/cmake-build-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/Answer/Homework4_Question2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C.dir/Answer/Homework4_Question2.c.o   -c /mnt/c/Users/Steven/Documents/CS/C/Answer/Homework4_Question2.c
+CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o: CMakeFiles/C.dir/flags.make
+CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o: ../Answer/Homework_6/Homework6_6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Steven/Documents/CS/C/cmake-build-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o   -c /mnt/c/Users/Steven/Documents/CS/C/Answer/Homework_6/Homework6_6.c
 
-CMakeFiles/C.dir/Answer/Homework4_Question2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/Answer/Homework4_Question2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Steven/Documents/CS/C/Answer/Homework4_Question2.c > CMakeFiles/C.dir/Answer/Homework4_Question2.c.i
+CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Steven/Documents/CS/C/Answer/Homework_6/Homework6_6.c > CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.i
 
-CMakeFiles/C.dir/Answer/Homework4_Question2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/Answer/Homework4_Question2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Steven/Documents/CS/C/Answer/Homework4_Question2.c -o CMakeFiles/C.dir/Answer/Homework4_Question2.c.s
+CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Steven/Documents/CS/C/Answer/Homework_6/Homework6_6.c -o CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.s
 
 # Object files for target C
 C_OBJECTS = \
-"CMakeFiles/C.dir/Answer/Homework4_Question2.c.o"
+"CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o"
 
 # External object files for target C
 C_EXTERNAL_OBJECTS =
 
-C : CMakeFiles/C.dir/Answer/Homework4_Question2.c.o
+C : CMakeFiles/C.dir/Answer/Homework_6/Homework6_6.c.o
 C : CMakeFiles/C.dir/build.make
 C : CMakeFiles/C.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Steven/Documents/CS/C/cmake-build-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable C"
